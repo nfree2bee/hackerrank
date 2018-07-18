@@ -17,8 +17,8 @@ Query the list of CITY names starting with vowels (i.e., a, e, i, o, or u) from 
 
 --Solution
 
-SELECT DISTINCT Country FROM Customers WHERE Country REGEXP "^[aeiou]" 
+SELECT DISTINCT CITY FROM STATION WHERE CITY REGEXP "^[aeiou]" 
 
-or
+****
 
-SELECT DISTINCT Country FROM Customers WHERE Country RLIKE "^[aeiou]"
+SELECT DISTINCT CITY FROM STATION WHERE CITY RLIKE "^[aeiou]"
